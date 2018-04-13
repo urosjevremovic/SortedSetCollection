@@ -1,1 +1,1 @@
-from SortedSet.sorted_set import SortedSet
+from SortedSet import sorted_set
