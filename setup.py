@@ -10,7 +10,7 @@ You can get it by downloading it directly or by typing:
 
     $ pip install SortedSet
 
-After it is installed you can start it by simply typing in your terminal:
+After it is installed you can start using it:
 
 .. code:: bash
 
@@ -26,7 +26,7 @@ Would return the following
 
 .. code:: bash
 
-    $ {1, 2, 3, 5}
+    $ SortedSet([1, 2, 3, 5])
 
 SortedSet Operations
 -------------

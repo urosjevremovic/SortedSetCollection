@@ -25,7 +25,7 @@ Would return the following
 
 .. code:: bash
 
-    $ {1, 2, 3, 5}
+    $ SortedSet([1, 2, 3, 5])
 
 SortedSet Operations
 -------------
