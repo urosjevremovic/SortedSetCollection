@@ -44,6 +44,9 @@ class SortedSet(Sequence, Set):
     def count(self, item):
         return int(item in self)
 
+    def contains(self, item):
+        return bool(item in self)
+
     def __add__(self, rhs):
         return SortedSet(chain(self._items, rhs._items))
 

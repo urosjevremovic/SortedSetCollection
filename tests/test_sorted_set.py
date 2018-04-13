@@ -162,6 +162,14 @@ class TestSequenceProtocol(unittest.TestCase):
         s = SortedSet([1, 5, 1, 1])
         self.assertEqual(s.count(1), 1)
 
+    def test_contains_zero(self):
+        s = SortedSet([1, 5, 7, 9])
+        self.assertEqual(s.contains(11), False)
+
+    def test_contains_one(self):
+        s = SortedSet([1, 5, 1, 1])
+        self.assertEqual(s.contains(1), True)
+
     def test_protocol(self):
         self.assertTrue(issubclass(SortedSet, Sequence))
 
