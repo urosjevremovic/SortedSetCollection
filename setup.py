@@ -208,7 +208,7 @@ access to SortedSet members by their index
 from setuptools import setup
 
 setup(name='SortedSet',
-      version='0.3',
+      version='0.4',
       description='Implementation of Immutable Sorted Set collection',
       long_description=__doc__,
       long_description_content_type='text/markdown',
